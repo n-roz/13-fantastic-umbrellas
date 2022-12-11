@@ -51,21 +51,21 @@ To invoke the application:
 
 Categories
 GET - GET Categories http://localhost:3001/api/categories/
-GET - GET Categories By ID http://localhost:3001/api/categories/
-PUT - UPDATE Categories http://localhost:3001/api/categories/6
+GET - GET Categories By ID http://localhost:3001/api/categories/:id
+PUT - UPDATE Categories http://localhost:3001/api/categories/:id
 POST - CREATE Category http://localhost:3001/api/categories/
-DEL - DELETE Category By ID http://localhost:3001/api/categories/6
+DEL - DELETE Category By ID http://localhost:3001/api/categories/:id
 
 Tags
 POST - CREATE New Tag http://localhost:3001/api/tags
 GET - GET Tags http://localhost:3001/api/tags
 GET - Tags By ID http://localhost:3001/api/tags/:id
-PUT - UPDATE Tag
-DEL - DELETE Tag By ID
+PUT - UPDATE Tag http://localhost:3001/api/tags/:id
+DEL - DELETE Tag By ID http://localhost:3001/api/tags/:id
 
 Products
-GET - GET All Products
-GET - GET One Product
-PUT - UPDATE Product
-POST - CREATE Product
-DEL - DELETE Product
+GET - GET All Products http://localhost:3001/api/products/
+GET - GET One Product http://localhost:3001/api/products/:id
+PUT - UPDATE Product http://localhost:3001/api/products/:id
+POST - CREATE Product http://localhost:3001/api/products/
+DEL - DELETE Product http://localhost:3001/api/products/:id
