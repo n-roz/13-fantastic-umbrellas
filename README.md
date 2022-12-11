@@ -1,8 +1,8 @@
-# E-commerce Back End Starter Code
+# Object-Relational Mapping (ORM) Challenge: E-commerce Back End
 
 ## Description
 
-This project is to build the back end for an online commerce store. We will use the Express.js API and use it with Sequelize to interact with a MySQL database.
+This project is to build the back end for an online commerce store. I used the Express.js API and with Sequelize to interact with a MySQL database.
 
 ## User Story
 ```
@@ -27,7 +27,13 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Installation
-For this project you will need:
+
+Clone the project with:
+```
+git clone git@github.com:n-roz/13-fantastic-umbrellas.git
+```
+
+Then:
 
 ```npm init```
 
@@ -38,16 +44,26 @@ For this project you will need:
 ```npm install dotenv```
 
 ## Usage
-When you are prompted, run the following command in your root folder:
-```mysql -u root -p``` This opens the MySQL shell.
-Enter your MySQL password when prompted. This can be edited in ```server.js```.
-```source db/schema.sql;```
-```quit;```
-```npm run seed```
-To invoke the application:
-```npm start```
 
-## Contributors and Questions
+To open a MySQL shell, run the following command in your root folder:
+```
+mysql -u root -p
+```
+
+Enter your MySQL password when prompted. This can be edited in ```server.js```.
+```
+source db/schema.sql;
+quit;
+npm run seed
+```
+![Alt text](assets/npm-run-seed.png "npm run seed")
+
+To invoke the application:
+```
+npm start
+```
+
+## Insomnia
 
 Categories
 GET - GET Categories http://localhost:3001/api/categories/
@@ -55,6 +71,7 @@ GET - GET Categories By ID http://localhost:3001/api/categories/:id
 PUT - UPDATE Categories http://localhost:3001/api/categories/:id
 POST - CREATE Category http://localhost:3001/api/categories/
 DEL - DELETE Category By ID http://localhost:3001/api/categories/:id
+![Alt text](assets/insomnia3.png "POST CREATE Category")
 
 Tags
 POST - CREATE New Tag http://localhost:3001/api/tags
@@ -62,6 +79,7 @@ GET - GET Tags http://localhost:3001/api/tags
 GET - GET Tags By ID http://localhost:3001/api/tags/:id
 PUT - UPDATE Tag http://localhost:3001/api/tags/:id
 DEL - DELETE Tag By ID http://localhost:3001/api/tags/:id
+![Alt text](assets/insomnia4.png "GET GET Tags")
 
 Products
 GET - GET All Products http://localhost:3001/api/products/
@@ -69,3 +87,8 @@ GET - GET One Product http://localhost:3001/api/products/:id
 PUT - UPDATE Product http://localhost:3001/api/products/:id
 POST - CREATE Product http://localhost:3001/api/products/
 DEL - DELETE Product http://localhost:3001/api/products/:id
+![Alt text](assets/insomnia1.png "GET ALL Products")
+
+## Contributors and Questions
+
+Special thanks to AskBCS and my tutor Melanie Blower.
