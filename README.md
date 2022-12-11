@@ -66,27 +66,33 @@ npm start
 ## Insomnia
 
 Categories
+```
 GET - GET Categories http://localhost:3001/api/categories/
 GET - GET Categories By ID http://localhost:3001/api/categories/:id
 PUT - UPDATE Categories http://localhost:3001/api/categories/:id
 POST - CREATE Category http://localhost:3001/api/categories/
 DEL - DELETE Category By ID http://localhost:3001/api/categories/:id
+```
 ![Alt text](assets/insomnia3.png "POST CREATE Category")
 
 Tags
+```
 POST - CREATE New Tag http://localhost:3001/api/tags
 GET - GET Tags http://localhost:3001/api/tags
 GET - GET Tags By ID http://localhost:3001/api/tags/:id
 PUT - UPDATE Tag http://localhost:3001/api/tags/:id
 DEL - DELETE Tag By ID http://localhost:3001/api/tags/:id
+```
 ![Alt text](assets/insomnia4.png "GET GET Tags")
 
 Products
+```
 GET - GET All Products http://localhost:3001/api/products/
 GET - GET One Product http://localhost:3001/api/products/:id
 PUT - UPDATE Product http://localhost:3001/api/products/:id
 POST - CREATE Product http://localhost:3001/api/products/
 DEL - DELETE Product http://localhost:3001/api/products/:id
+```
 ![Alt text](assets/insomnia1.png "GET ALL Products")
 
 ## Contributors and Questions
