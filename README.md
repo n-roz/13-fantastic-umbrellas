@@ -37,11 +37,7 @@ Then:
 
 ```npm init```
 
-```npm install mysql2```
-
-```npm install sequelize```
-
-```npm install dotenv```
+```npm install mysql2 sequelize dotenv```
 
 ## Usage
 
@@ -51,11 +47,9 @@ mysql -u root -p
 ```
 
 Enter your MySQL password when prompted. This can be edited in ```server.js```.
-```
-source db/schema.sql;
-quit;
-npm run seed
-```
+```source db/schema.sql;```
+```quit;```
+```npm run seed```
 ![Alt text](assets/npm-run-seed.png "npm run seed")
 
 To invoke the application:
