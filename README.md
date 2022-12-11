@@ -46,7 +46,7 @@ To open a MySQL shell, run the following command in your root folder:
 mysql -u root -p
 ```
 
-Enter your MySQL password when prompted. This can be edited in ```server.js```.
+Enter your MySQL password when prompted. This can be edited in ```.env```. Technically, you should have to make your own ```.env``` file. ```.env``` is included in my ```.gitignore```, but for some reason it is still on my GitHub repository.
 
 ```
 source db/schema.sql;
@@ -97,7 +97,7 @@ PUT - UPDATE Product http://localhost:3001/api/products/:id
 POST - CREATE Product http://localhost:3001/api/products/
 DEL - DELETE Product http://localhost:3001/api/products/:id
 ```
-![Alt text](assets/insomnia1.png "GET ALL Products")
+![Alt text](assets/insomnia1.png "GET GET All Products")
 
 ## Contributors and Questions
 
