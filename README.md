@@ -1,5 +1,9 @@
 # E-commerce Back End Starter Code
 
+## Description
+
+This project is to build the back end for an online commerce store. We will use the Express.js API and use it with Sequelize to interact with a MySQL database.
+
 ## User Story
 ```
 AS A manager at an internet retail company
@@ -21,3 +25,26 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
+
+## Installation
+For this project you will need:
+
+```npm init```
+
+```npm install mysql2```
+
+```npm install sequelize```
+
+```npm install dotenv```
+
+## Usage
+When you are prompted, run the following command in your root folder:
+```mysql -u root -p``` This opens the MySQL shell.
+Enter your MySQL password when prompted. This can be edited in ```server.js```.
+```source db/schema.sql;```
+```quit;```
+```npm run seed```
+To invoke the application:
+```npm start```
+
+## Contributors and Questions
