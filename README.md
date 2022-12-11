@@ -59,7 +59,7 @@ DEL - DELETE Category By ID http://localhost:3001/api/categories/:id
 Tags
 POST - CREATE New Tag http://localhost:3001/api/tags
 GET - GET Tags http://localhost:3001/api/tags
-GET - Tags By ID http://localhost:3001/api/tags/:id
+GET - GET Tags By ID http://localhost:3001/api/tags/:id
 PUT - UPDATE Tag http://localhost:3001/api/tags/:id
 DEL - DELETE Tag By ID http://localhost:3001/api/tags/:id
 
