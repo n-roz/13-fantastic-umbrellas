@@ -48,3 +48,24 @@ To invoke the application:
 ```npm start```
 
 ## Contributors and Questions
+
+Categories
+GET - GET Categories http://localhost:3001/api/categories/
+GET - GET Categories By ID http://localhost:3001/api/categories/
+PUT - UPDATE Categories http://localhost:3001/api/categories/6
+POST - CREATE Category http://localhost:3001/api/categories/
+DEL - DELETE Category By ID http://localhost:3001/api/categories/6
+
+Tags
+POST - CREATE New Tag http://localhost:3001/api/tags
+GET - GET Tags http://localhost:3001/api/tags
+GET - Tags By ID http://localhost:3001/api/tags/:id
+PUT - UPDATE Tag
+DEL - DELETE Tag By ID
+
+Products
+GET - GET All Products
+GET - GET One Product
+PUT - UPDATE Product
+POST - CREATE Product
+DEL - DELETE Product
