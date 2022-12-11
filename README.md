@@ -26,6 +26,13 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+## Challenges
+The biggest challenge I experienced was with getting my node server connected. See below for a sample of the error messages I received.
+These errors were ultimately fixed when AskBCS pointed out I had forgotten to add ```use ecommerce_db;``` in my ```db/schema.sql```.
+
+![Alt text](assets/error2.png "When I tried commenting out my .env file")
+![Alt text](assets/error3.png "Before I fixed my db/schema.sql")
+
 ## Installation
 
 Clone the project with:
