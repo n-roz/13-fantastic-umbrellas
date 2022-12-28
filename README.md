@@ -4,6 +4,8 @@
 
 This project is to build the back end for an online commerce store. I used the Express.js API and with Sequelize to interact with a MySQL database.
 
+[View my video walkthrough here.](https://drive.google.com/file/d/1XOzniJDw5UYQydEZ_6G-wUA6TdKeUUKb/view)
+
 ## User Story
 ```
 AS A manager at an internet retail company
