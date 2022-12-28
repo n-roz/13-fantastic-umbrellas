@@ -36,9 +36,8 @@ These errors were ultimately fixed when AskBCS pointed out I had forgotten to ad
 ## Installation
 
 Clone the project with:
-```
-git clone git@github.com:n-roz/13-fantastic-umbrellas.git
-```
+
+```git clone git@github.com:n-roz/13-fantastic-umbrellas.git```
 
 Then:
 
@@ -51,7 +50,7 @@ To open a MySQL shell, run the following command in your root folder:
 mysql -u root -p
 ```
 
-Enter your MySQL password when prompted. This can be edited in ```.env```. Technically, you should have to make your own ```.env``` file. ```.env``` is included in my ```.gitignore```, but for some reason it is still on my GitHub repository.
+Enter your MySQL password when prompted. This can be edited in ```.env```. Technically, you should have to make your own ```.env``` file. My ```.env``` file is included in my ```.gitignore``` but for some reason it is still on my GitHub repository.
 
 ```
 source db/schema.sql;
