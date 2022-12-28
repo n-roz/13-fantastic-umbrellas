@@ -42,9 +42,7 @@ git clone git@github.com:n-roz/13-fantastic-umbrellas.git
 
 Then:
 
-```npm init```
-
-```npm install mysql2 sequelize dotenv```
+```npm i```
 
 ## Usage
 
