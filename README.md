@@ -52,6 +52,8 @@ mysql -u root -p
 
 Enter your MySQL password when prompted. This can be edited in ```.env```. Technically, you should have to make your own ```.env``` file. My ```.env``` file is included in my ```.gitignore``` but for some reason it is still on my GitHub repository.
 
+![Alt text](assets/env.png ".env file")
+
 ```
 source db/schema.sql;
 ```

@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
+// notes from tutoring with sean that i am leaving here
 // The `/api/categories` endpoint
 // router.get('/naomi/:fruit/:name', (req, res) => {
 //   console.log(req.body)
